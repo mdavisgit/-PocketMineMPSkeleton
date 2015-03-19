@@ -15,7 +15,7 @@ class Main extends PluginBase{
         }
  
 		public function onDisable() {
-			
+				$this->getLogger()->info("onDisable() has been called!");
 		
 	}
 }
